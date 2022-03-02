@@ -1,4 +1,5 @@
 #pragma once
+#include <io.h>
 #include <string>
 #include <fstream>
 #include <iostream>
@@ -6,6 +7,7 @@
 #include <algorithm>
 #include <array>
 #include <ctime>
+#include <fcntl.h>
 #include <cstdlib>
 
 using namespace std;

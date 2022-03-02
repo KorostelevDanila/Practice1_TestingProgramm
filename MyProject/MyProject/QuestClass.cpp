@@ -3,6 +3,7 @@
 #include <cstdlib>
 
 bool readFromFile(Questions* arr) {
+	_setmode(_fileno(stdout), _O_U16TEXT);
 	std::ifstream in("questions.bin", ios::binary);
 
 	if (!in) {
