@@ -1,9 +1,3 @@
-﻿  ExamForm.cpp
-C:\Users\diota\Documents\GitHub\MyProject\MyProject\ExamForm.cpp(17,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  ExamFormResults.cpp
-  PracticeForm.cpp
-C:\Users\diota\Documents\GitHub\MyProject\MyProject\PracticeForm.cpp(14,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  QuestClass.cpp
-  Создание кода...
+﻿  QuestClass.cpp
   AboutProgramm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
   MyProject.vcxproj -> C:\Users\diota\Documents\GitHub\MyProject\Debug\MyProject.exe

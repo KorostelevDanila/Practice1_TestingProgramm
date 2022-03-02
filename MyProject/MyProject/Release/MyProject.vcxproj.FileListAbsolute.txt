@@ -5,3 +5,10 @@ C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\Release\MyProject.v
 C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\Release\MyProject.ExamFormResults.resources
 C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\Release\MyProject.PracticeForm.resources
 C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\Release\MyProject.AboutProgramm.resources
+C:\Users\diota\Documents\GitHub\MyProject\MyProject\Release\MyProject.vcxproj.AssemblyReference.cache
+C:\Users\diota\Documents\GitHub\MyProject\MyProject\Release\MyProject.AboutProgramm.resources
+C:\Users\diota\Documents\GitHub\MyProject\MyProject\Release\MyProject.ExamForm.resources
+C:\Users\diota\Documents\GitHub\MyProject\MyProject\Release\MyProject.ExamFormResults.resources
+C:\Users\diota\Documents\GitHub\MyProject\MyProject\Release\MyProject.MyForm.resources
+C:\Users\diota\Documents\GitHub\MyProject\MyProject\Release\MyProject.PracticeForm.resources
+C:\Users\diota\Documents\GitHub\MyProject\MyProject\Release\MyProject.vcxproj.GenerateResource.cache

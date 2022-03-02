@@ -51,6 +51,7 @@ System::Void MyProject::ExamForm::button1_Click(System::Object^ sender, System::
 		if (radioButton1->Checked == true) {
 			//label2->Text = "Верно";
 			quests[random[iExam]].givenAnswer = "Верно";
+			quests[random[iExam]].answer += 1;
 		}
 		else {
 			//label2->Text = "Неверно";
@@ -61,6 +62,7 @@ System::Void MyProject::ExamForm::button1_Click(System::Object^ sender, System::
 		if (radioButton2->Checked == true) {
 			//label2->Text = "Верно";
 			quests[random[iExam]].givenAnswer = "Верно";
+			quests[random[iExam]].answer += 1;
 		}
 		else {
 			//label2->Text = "Неверно";
@@ -71,6 +73,7 @@ System::Void MyProject::ExamForm::button1_Click(System::Object^ sender, System::
 		if (radioButton3->Checked == true) {
 			//label2->Text = "Верно";
 			quests[random[iExam]].givenAnswer = "Верно";
+			quests[random[iExam]].answer += 1;
 		}
 		else {
 			//label2->Text = "Неверно";
@@ -81,6 +84,7 @@ System::Void MyProject::ExamForm::button1_Click(System::Object^ sender, System::
 		if (radioButton4->Checked == true) {
 			//label2->Text = "Верно";
 			quests[random[iExam]].givenAnswer = "Верно";
+			quests[random[iExam]].answer += 1;
 		}
 		else {
 			//label2->Text = "Неверно";

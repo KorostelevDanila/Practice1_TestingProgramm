@@ -8,6 +8,27 @@ extern Questions quests[10];
 
 System::Void MyProject::ExamFormResults::ExamFormResults_Load(System::Object^ sender, System::EventArgs^ e)
 {
+	int score = 0;
+	for (int k = 0; k < 10; k++) {
+		score += quests[random[k]].answer;
+	}
+
+	if (score <= 4) {
+		this->label12->Text = "ќценка: 2";
+	
+	}
+	else {
+		if (score <= 6) {
+			this->label12->Text = "ќценка: 3";
+		}
+		else {
+			if (score <= 8) {
+				this->label12->Text = "ќценка: 4";
+			}
+			else this->label12->Text = "ќценка: 5";
+		}
+	}
+
 	String^ question = Convert_string_to_String(quests[random[0]].givenAnswer, question);
 	this->textBox1->Text = question;
 		

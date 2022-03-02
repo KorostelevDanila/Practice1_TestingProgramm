@@ -19,6 +19,7 @@ public:
 	std::string CorrectAnswer;
 	std::string givenAnswer;
 	int questNum;
+	int answer = 0;
 };
 
 bool readFromFile(Questions* arr);

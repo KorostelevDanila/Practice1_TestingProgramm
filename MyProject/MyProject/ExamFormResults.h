@@ -59,6 +59,7 @@ namespace MyProject {
 	private: System::Windows::Forms::Button^ button1;
 	private: System::Windows::Forms::MenuStrip^ menuStrip1;
 	private: System::Windows::Forms::ToolStripMenuItem^ ‚˚ÈÚËToolStripMenuItem;
+	private: System::Windows::Forms::Label^ label12;
 
 	private:
 		/// <summary>
@@ -97,6 +98,7 @@ namespace MyProject {
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
 			this->‚˚ÈÚËToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->label12 = (gcnew System::Windows::Forms::Label());
 			this->menuStrip1->SuspendLayout();
 			this->SuspendLayout();
 			// 
@@ -308,11 +310,21 @@ namespace MyProject {
 			this->‚˚ÈÚËToolStripMenuItem->Text = L"¬˚ÈÚË";
 			this->‚˚ÈÚËToolStripMenuItem->Click += gcnew System::EventHandler(this, &ExamFormResults::‚˚ÈÚËToolStripMenuItem_Click);
 			// 
+			// label12
+			// 
+			this->label12->AutoSize = true;
+			this->label12->Location = System::Drawing::Point(210, 355);
+			this->label12->Name = L"label12";
+			this->label12->Size = System::Drawing::Size(62, 17);
+			this->label12->TabIndex = 23;
+			this->label12->Text = L"ŒˆÂÌÍ‡:";
+			// 
 			// ExamFormResults
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(513, 521);
+			this->Controls->Add(this->label12);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->textBox10);
 			this->Controls->Add(this->label11);

@@ -1,7 +1,14 @@
-﻿  ExamForm.cpp
-C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\ExamForm.cpp(17,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+﻿  AboutProgramm.cpp
+  ConvertFuncs.cpp
+  ExamForm.cpp
+C:\Users\diota\Documents\GitHub\MyProject\MyProject\ExamForm.cpp(17,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  ExamFormResults.cpp
   MyForm.cpp
-C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\MyForm.cpp(12,33): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+C:\Users\diota\Documents\GitHub\MyProject\MyProject\MyForm.cpp(12,33): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  PracticeForm.cpp
+C:\Users\diota\Documents\GitHub\MyProject\MyProject\PracticeForm.cpp(14,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  QuestClass.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   Создание кода...
   AboutProgramm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
-  MyProject.vcxproj -> C:\Users\diota\Desktop\KorostelevProject\MyProject\Release\MyProject.exe
+  MyProject.vcxproj -> C:\Users\diota\Documents\GitHub\MyProject\Release\MyProject.exe
