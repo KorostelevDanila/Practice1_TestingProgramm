@@ -45,26 +45,8 @@ System::Void MyProject::PracticeForm::button1_Click(System::Object^ sender, Syst
 	switch (atoi(questsPractice[randomPractice[i]].CorrectAnswer.c_str())) {
 	case 1: {
 		if (radioButton1->Checked == true) {
-			i++;
-			label2->Visible = false;
-
-			if (i == 10) {
-				random_shuffle(randomPractice.begin(), randomPractice.end());
-				i = 0;
-			}
-
-			String^ question = Convert_string_to_String(questsPractice[randomPractice[i]].Quest, question);
-			String^ answer1 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[0], answer1);
-			String^ answer2 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[1], answer2);
-			String^ answer3 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[2], answer3);
-			String^ answer4 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[3], answer4);
-
-
-			this->label1->Text = question;
-			this->radioButton1->Text = answer1;
-			this->radioButton2->Text = answer2;
-			this->radioButton3->Text = answer3;
-			this->radioButton4->Text = answer4;
+			label2->Visible = true;
+			label2->Text = "Âåðíî";
 		}
 		else {
 			label2->Visible = true;
@@ -73,26 +55,8 @@ System::Void MyProject::PracticeForm::button1_Click(System::Object^ sender, Syst
 	}; break;
 	case 2: {
 		if (radioButton2->Checked == true) {
-			i++;
-			label2->Visible = false;
-
-			if (i == 10) {
-				random_shuffle(randomPractice.begin(), randomPractice.end());
-				i = 0;
-			}
-
-			String^ question = Convert_string_to_String(questsPractice[randomPractice[i]].Quest, question);
-			String^ answer1 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[0], answer1);
-			String^ answer2 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[1], answer2);
-			String^ answer3 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[2], answer3);
-			String^ answer4 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[3], answer4);
-
-
-			this->label1->Text = question;
-			this->radioButton1->Text = answer1;
-			this->radioButton2->Text = answer2;
-			this->radioButton3->Text = answer3;
-			this->radioButton4->Text = answer4;
+			label2->Visible = true;
+			label2->Text = "Âåðíî";
 		}
 		else {
 			label2->Visible = true;
@@ -101,26 +65,8 @@ System::Void MyProject::PracticeForm::button1_Click(System::Object^ sender, Syst
 	}; break;
 	case 3: {
 		if (radioButton3->Checked == true) {
-			i++;
-			label2->Visible = false;
-
-			if (i == 10) {
-				random_shuffle(randomPractice.begin(), randomPractice.end());
-				i = 0;
-			}
-
-			String^ question = Convert_string_to_String(questsPractice[randomPractice[i]].Quest, question);
-			String^ answer1 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[0], answer1);
-			String^ answer2 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[1], answer2);
-			String^ answer3 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[2], answer3);
-			String^ answer4 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[3], answer4);
-
-
-			this->label1->Text = question;
-			this->radioButton1->Text = answer1;
-			this->radioButton2->Text = answer2;
-			this->radioButton3->Text = answer3;
-			this->radioButton4->Text = answer4;
+				label2->Visible = true;
+				label2->Text = "Âåðíî";
 		}
 		else {
 			label2->Visible = true;
@@ -129,26 +75,8 @@ System::Void MyProject::PracticeForm::button1_Click(System::Object^ sender, Syst
 	}; break;
 	case 4: {
 		if (radioButton4->Checked == true) {
-			i++;
-			label2->Visible = false;
-
-			if (i == 10) {
-				random_shuffle(randomPractice.begin(), randomPractice.end());
-				i = 0;
-			}
-
-			String^ question = Convert_string_to_String(questsPractice[randomPractice[i]].Quest, question);
-			String^ answer1 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[0], answer1);
-			String^ answer2 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[1], answer2);
-			String^ answer3 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[2], answer3);
-			String^ answer4 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[3], answer4);
-
-
-			this->label1->Text = question;
-			this->radioButton1->Text = answer1;
-			this->radioButton2->Text = answer2;
-			this->radioButton3->Text = answer3;
-			this->radioButton4->Text = answer4;
+			label2->Visible = true;
+			label2->Text = "Âåðíî";
 		}
 		else {
 			label2->Visible = true;
@@ -192,3 +120,31 @@ System::Void MyProject::PracticeForm::èçÏðîãðàììûToolStripMenuItem_Click(System:
 	Application::Exit();
 	return System::Void();
 }
+
+System::Void MyProject::PracticeForm::button2_Click(System::Object^ sender, System::EventArgs^ e)
+{
+	i++;
+	label2->Visible = false;
+
+	if (i == 10) {
+		random_shuffle(randomPractice.begin(), randomPractice.end());
+		i = 0;
+	}
+
+	String^ question = Convert_string_to_String(questsPractice[randomPractice[i]].Quest, question);
+	String^ answer1 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[0], answer1);
+	String^ answer2 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[1], answer2);
+	String^ answer3 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[2], answer3);
+	String^ answer4 = Convert_string_to_String(questsPractice[randomPractice[i]].Answers[3], answer4);
+
+
+	this->label1->Text = question;
+	this->radioButton1->Text = answer1;
+	this->radioButton2->Text = answer2;
+	this->radioButton3->Text = answer3;
+	this->radioButton4->Text = answer4;
+
+	return System::Void();
+}
+
+

@@ -45,6 +45,7 @@ namespace MyProject {
 	private: System::Windows::Forms::ToolStripMenuItem^ âûéòèToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^ âÃëàâíîåÌåíşToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^ èçÏğîãğàììûToolStripMenuItem;
+	private: System::Windows::Forms::Button^ button2;
 	protected:
 
 	private:
@@ -71,6 +72,7 @@ namespace MyProject {
 			this->âûéòèToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->âÃëàâíîåÌåíşToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->èçÏğîãğàììûToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->menuStrip1->SuspendLayout();
 			this->SuspendLayout();
 			// 
@@ -130,7 +132,7 @@ namespace MyProject {
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(218, 414);
+			this->button1->Location = System::Drawing::Point(125, 414);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(98, 39);
 			this->button1->TabIndex = 7;
@@ -154,7 +156,7 @@ namespace MyProject {
 			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->âûéòèToolStripMenuItem });
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
-			this->menuStrip1->Size = System::Drawing::Size(553, 30);
+			this->menuStrip1->Size = System::Drawing::Size(553, 28);
 			this->menuStrip1->TabIndex = 9;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
@@ -165,28 +167,39 @@ namespace MyProject {
 					this->èçÏğîãğàììûToolStripMenuItem
 			});
 			this->âûéòèToolStripMenuItem->Name = L"âûéòèToolStripMenuItem";
-			this->âûéòèToolStripMenuItem->Size = System::Drawing::Size(67, 26);
+			this->âûéòèToolStripMenuItem->Size = System::Drawing::Size(67, 24);
 			this->âûéòèToolStripMenuItem->Text = L"Âûéòè";
 			// 
 			// âÃëàâíîåÌåíşToolStripMenuItem
 			// 
 			this->âÃëàâíîåÌåíşToolStripMenuItem->Name = L"âÃëàâíîåÌåíşToolStripMenuItem";
-			this->âÃëàâíîåÌåíşToolStripMenuItem->Size = System::Drawing::Size(224, 26);
+			this->âÃëàâíîåÌåíşToolStripMenuItem->Size = System::Drawing::Size(205, 26);
 			this->âÃëàâíîåÌåíşToolStripMenuItem->Text = L"Â ãëàâíîå ìåíş";
 			this->âÃëàâíîåÌåíşToolStripMenuItem->Click += gcnew System::EventHandler(this, &PracticeForm::âÃëàâíîåÌåíşToolStripMenuItem_Click);
 			// 
 			// èçÏğîãğàììûToolStripMenuItem
 			// 
 			this->èçÏğîãğàììûToolStripMenuItem->Name = L"èçÏğîãğàììûToolStripMenuItem";
-			this->èçÏğîãğàììûToolStripMenuItem->Size = System::Drawing::Size(224, 26);
+			this->èçÏğîãğàììûToolStripMenuItem->Size = System::Drawing::Size(205, 26);
 			this->èçÏğîãğàììûToolStripMenuItem->Text = L"Èç ïğîãğàììû";
 			this->èçÏğîãğàììûToolStripMenuItem->Click += gcnew System::EventHandler(this, &PracticeForm::èçÏğîãğàììûToolStripMenuItem_Click);
+			// 
+			// button2
+			// 
+			this->button2->Location = System::Drawing::Point(255, 414);
+			this->button2->Name = L"button2";
+			this->button2->Size = System::Drawing::Size(109, 39);
+			this->button2->TabIndex = 10;
+			this->button2->Text = L"Ñëåä. âîïğîñ";
+			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &PracticeForm::button2_Click);
 			// 
 			// PracticeForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(553, 524);
+			this->Controls->Add(this->button2);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->radioButton4);
@@ -210,5 +223,6 @@ namespace MyProject {
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e);
 private: System::Void âÃëàâíîåÌåíşToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e);
 private: System::Void èçÏğîãğàììûToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e);
 };
 }
