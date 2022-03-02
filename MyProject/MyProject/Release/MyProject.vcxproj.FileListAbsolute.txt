@@ -1,0 +1,7 @@
+C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\Release\MyProject.ExamForm.resources
+C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\Release\MyProject.MyForm.resources
+C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\Release\MyProject.vcxproj.GenerateResource.cache
+C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\Release\MyProject.vcxproj.AssemblyReference.cache
+C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\Release\MyProject.ExamFormResults.resources
+C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\Release\MyProject.PracticeForm.resources
+C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\Release\MyProject.AboutProgramm.resources

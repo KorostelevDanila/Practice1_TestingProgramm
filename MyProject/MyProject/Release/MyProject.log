@@ -1,0 +1,7 @@
+﻿  ExamForm.cpp
+C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\ExamForm.cpp(17,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  MyForm.cpp
+C:\Users\diota\Desktop\KorostelevProject\MyProject\MyProject\MyForm.cpp(12,33): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  Создание кода...
+  AboutProgramm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  MyProject.vcxproj -> C:\Users\diota\Desktop\KorostelevProject\MyProject\Release\MyProject.exe
