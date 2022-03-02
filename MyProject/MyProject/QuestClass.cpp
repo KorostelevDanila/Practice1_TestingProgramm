@@ -3,7 +3,7 @@
 #include <cstdlib>
 
 bool readFromFile(Questions* arr) {
-	std::ifstream in("questions.bin");
+	std::ifstream in("questions.bin", ios::binary);
 
 	if (!in) {
 		return false;
